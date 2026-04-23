@@ -214,6 +214,14 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+.vscode/
+# langgraph
+
+langgraphjs/node_modules/
+langgraphjs/.next/
+langgraphjs/out/
+langgraphjs/core/llmgw-config.json
+
 # Web app
 web/node_modules/
 web/.next/
