@@ -102,8 +102,8 @@ export class ToolCallingGraph {
         console.log("输入你想问的内容，或者输入'exit'退出");
         const {read, close} = readUserInput();
         while (true) {
-            const input = await read(">>> ");
-            if (input === "exit") {
+            const input = (await read(">>> ")).trim().toLowerCase();
+            if (input === "exit" || input === "q") {
                 break;
             }
             await this.invoke(input);
