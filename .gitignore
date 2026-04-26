@@ -216,11 +216,16 @@ __marimo__/
 
 .vscode/
 # langgraph
-
 langgraphjs/node_modules/
 langgraphjs/.next/
 langgraphjs/out/
 langgraphjs/core/llmgw-config.json
+
+# raw
+raw/node_modules/
+raw/.next/
+raw/out/
+raw/core/llmgw-config.json
 
 # Web app
 web/node_modules/
