@@ -227,6 +227,10 @@ raw/.next/
 raw/out/
 raw/core/llmgw-config.json
 
+# ink
+ink/node_modules/
+ink/dist/
+
 # Web app
 web/node_modules/
 web/.next/
