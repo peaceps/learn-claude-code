@@ -1,7 +1,7 @@
 import { ContentBlock, MessageParam } from '@anthropic-ai/sdk/resources/messages/messages.js';
 import { ToolUseBlock } from '@anthropic-ai/sdk/resources';
 import { extractText } from '../utils/utils.js';
-import { LLMModel } from '../core/init-llmgw.js';
+import { LLMModel } from '../llm/init-llmgw.js';
 import { bashTool, ToolCallback, ToolDesc } from '../tools/tools.js';
 import { readUserInput } from '../utils/input-reader.js';
 
