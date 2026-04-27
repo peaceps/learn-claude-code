@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import { ChatOpenAI } from '@langchain/openai';
 
 
-dotenv.config({ path: path.join(process.cwd(), '.env') });
+dotenv.config({ path: path.join(process.cwd(), '.env'), quiet: true });
 
 const gw = {
     embeddingModel: process.env.EMBENDING_MODEL_ID,
